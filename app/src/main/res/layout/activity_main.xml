@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#9AFBC6"
+        app:cardCornerRadius="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Rajshahi"
+            android:textSize="40dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#9A9A9A"
+        android:layout_marginTop="10dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:src="@drawable/rajshahi_map"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajshahi is a metropolitan city and a major urban, administrative, commercial and educational centre of Bangladesh. It is also the administrative seat of the eponymous division and district. Located on the north bank of the Padma River, near the Bangladesh–India border, the city is surrounded by the satellite towns of Nowhata and Katakhali, which together build an urban agglomeration of about 1 million population. Modern Rajshahi lies in the ancient region of Pundravardhana. The foundation of the city dates to 1634, according to epigraphic records at the mausoleum of Sufi saint Shah Makhdum. The area hosted a Dutch settlement in the 18th century. The Rajshahi municipality was constituted during the British Raj in 1876. It was a divisional capital of the greater Rajshahi division which was the largest division in Bengal Province.\nRajshahi is a historic center of silk production. Varendra Research Museum, the oldest of its kind in Bangladesh, is located in the city. Sometimes the city is referred as the City of Education The city is home to many renowned educational institutions of Bangladesh. The head office of Rajshahi Agricultural Development Bank and Barind Multipurpose Development Authority (BMDA) is situated in the city. The Shah Makhdum Airport serves Rajshahi. According to The Guardian, Rajshahi is the cleanest city of Bangladesh.\n\n History \n\nRajshahi district was a part of the Pundra region of ancient Bengal ruled by the Pundra Kingdom. The capital of Prince Vijaya, the king who led military operations in Sri Lanka and Southeast Asia was located 14 kilometres (9 mi) to the west of Rajshahi town. Rajshahi was dominated by various Maharajas, Rajas and Zamindars. During Deo Raja's period, the region was known as Mohakalgarh. In 1288-89 the Raja was defeated by Shah Makhdum Rupos. The region came to be known as Rampur Boalia after the establishment of an administrative office in 1825. The origin of the present name of Rajshahi is debated among scholars. Most say that it takes its name from Hindu Kings Rajshahi Raj (or Rajas) as Raj and the persianised Shahi; both of which mean royal or (kingdom) The administrative district was established in 1772 and the municipal corporation in 1876.\nRajshahi Railway Station in the 1930s\nDuring the British raj, it was also known as Beuleah and was the administrative headquarters of the Rajshahi district in Eastern Bengal and Assam. It was originally chosen as a commercial factory for the silk trade, which was being officially encouraged by the agricultural department of that time. The town contained a government college and an industrial school for sericulture. Most of the public buildings were severely damaged by the earthquake of 12 June 1897. Throughout much of the early part of the twentieth century there was a daily steamer service on the Ganges which connected it to rail-heads that led to the then provincial capital of Calcutta as well as other cities in the province of Bengal.\nPakistani Eastern Command plan for the defence of East Pakistan from 1967 to 1971 (generic representation—some unit locations not shown).\nRajshahi witnessed great atrocities by the Pakistan army in the 1962 Rajshahi massacres of Bangladeshis. During the Bangladesh Liberation War, Pakistan Army created an ad hoc Rajshahi brigade, deployed in September.\nRajshahi was made a city corporation in 1991.\n\nGeography \n\n Topography\n\nGeographically Rajshahi is situated within Barind Tract, 23 m (75 ft) above sea level, and lies at 24°22′26″N 88°36′04E. The city is located on the alluvial plains of the Padma River, which runs through southern side of the city. It is bounded on the east, north and west by Paba Upazila (subdivision of a district) of the district.\nRajshahi District is bounded by Naogaon District to the north, Natore District to the east, and Chapai Nawabganj District and the river Padma and Kushtia District to the south.\n\nClimate\n\nUnder the Köppen climate classification, Rajshahi has a tropical wet and dry climate. The climate of Rajshahi is generally marked with monsoons, high temperature, considerable humidity and moderate rainfall. The hot season commences early in March and continues till the middle of July. The maximum mean temperature observed is about 32 to 36 °C (90 to 97 °F) during the months of April, May, June and July and the minimum temperature recorded in January is about 7 to 16 °C (45 to 61 °F). The highest rainfall is observed during the months of monsoon. The annual rainfall in the district is about 1,448 millimetres (57.0 in)."
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#9A9A9A"
+                android:layout_marginVertical="10dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
